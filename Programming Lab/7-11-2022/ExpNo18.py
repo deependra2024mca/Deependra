@@ -1,0 +1,9 @@
+dict1={'13':'31','12':'21'}
+sorted_a=sorted(dict1.keys())
+print(sorted_a)
+sorted_a=sorted(dict1.items())
+print(sorted_a)
+sorted_a=sorted(dict1.values())
+print(sorted_a)
+sorted_a=sorted(dict1.items(),reverse=True)
+print(sorted_a)
